@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="440" viewBox="-200 -220 400 440">
+
+<path fill="red" stroke="black" d="M -160,-130 v -15 c -15,10 -15,-30 0,-25 0,-20 30,-25 30,0 -30,-10 -30,20 0,10 v 30 h -10 v -10 h -9 v 10 z">
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" begin="0s" dur="5s"
+                    values="0,0;150,0;300,0;300,0;300,150;300,300;300,300;150,300;0,300;0,300;0,150;0,0;0,0" />
+</path>
+
+<path fill="red" stroke="black" d="M -15,30 v -15 c -15,10 -15,-30 0,-25 0,-20 30,-25 30,0 -30,-10 -30,20 0,10 v 30 h -10 v -10 h -9 v 10 z">
+  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" begin="0s" dur="1.5s"
+                    values="0;360" />
+</path>
+
+</svg>

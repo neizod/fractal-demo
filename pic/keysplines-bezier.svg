@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="-40 -40 480 480">
+
+<rect x="0" y="0" width="400" height="400" fill="none" stroke="black" />
+
+<path d="M 0,400 C 40,40 320,280 400,0" fill="none" stroke="red" stroke-width="2.5" />
+<line x1="0" y1="400" x2="40" y2="40" stroke="black" stroke-dasharray="7 3" />
+<line x1="400" y1="0" x2="320" y2="280" stroke="black" stroke-dasharray="7 3" />
+<circle cx="40" cy="40" r="5" fill="red" />
+<circle cx="320" cy="280" r="5" fill="red" />
+<circle cx="0" cy="400" r="5" fill="red" />
+<circle cx="400" cy="0" r="5" fill="red" />
+
+<g text-anchor="middle" dominant-baseline="middle">
+  <text x="-25" y="400">(0,0)</text>
+  <text x="425" y="0">(1,1)</text>
+  <text x="40" y="25">(0.1,0.9)</text>
+  <text x="320" y="295">(0.8,0.3)</text>
+</g>
+
+</svg>

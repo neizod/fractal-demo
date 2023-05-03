@@ -1,0 +1,14 @@
+baseurl: "/fractal-demo"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      regenerate: true
+      layout: page
